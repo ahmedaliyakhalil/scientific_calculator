@@ -102,6 +102,12 @@
         box-shadow: inset 5px 5px 8px #e60073,
             inset -5px -5px 8px #ff3399;
     }
+     
+    .end{
+        position: absolute;
+        bottom: 0;
+        margin: 0;
+    }
 </style>
 
 <body>
@@ -159,6 +165,7 @@
             </div>
         </div>
     </div>
+   
 </body>
 <script>
     var screen = document.querySelector('#screen');
@@ -229,5 +236,7 @@
         screen.value = screen.value.substr(0, screen.value.length - 1);
     }
 </script>
-
+<div class="end">
+    <h2>@copyright Ahmed Aliya Khalil</h2>
+</div>
 </html>
